@@ -1,0 +1,38 @@
+{
+  "project_name": "vvvbbb Website",
+  "project_root": "..",
+  "ai": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "api_key": "",
+    "api_key_env": "GEMINI_API_KEY",
+    "temperature": 0.2,
+    "max_tokens": 8192
+  },
+  "git": {
+    "auto_commit": true,
+    "auto_push": true,
+    "branch": "main",
+    "author_name": "Antigravity Cloud Autonomous Agent",
+    "author_email": "agent@antigravity.cloud"
+  },
+  "notifications": {
+    "enabled": true,
+    "provider": "telegram",
+    "telegram_bot_token": "",
+    "telegram_chat_id": "",
+    "telegram_bot_token_env": "TELEGRAM_BOT_TOKEN",
+    "telegram_chat_id_env": "TELEGRAM_CHAT_ID"
+  },
+  "safety": {
+    "max_tasks_per_run": 5,
+    "max_retries_per_task": 3,
+    "sleep_between_tasks_sec": 5,
+    "forbidden_paths": [
+      ".git",
+      "node_modules",
+      ".env",
+      "package-lock.json"
+    ]
+  }
+}
