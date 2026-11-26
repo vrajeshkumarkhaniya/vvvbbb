@@ -1,7 +1,8 @@
 {
   "current_task": null,
   "completed_tasks": [
-    "Task 1: Core Website Foundation, Responsive Landing Page & Vercel Setup"
+    "Task 1: Core Website Foundation, Responsive Landing Page & Vercel Setup",
+    "Task 2: Add SEO Metadata, OpenGraph Tags & Static Sitemap"
   ],
   "failed_tasks": [],
   "total_commits": 1,

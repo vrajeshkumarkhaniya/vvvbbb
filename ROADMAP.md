@@ -10,7 +10,7 @@ Completed tasks are marked `[x]`. Pending `[ ]` tasks are automatically picked u
   - **Description:** Build the responsive React + Vite landing page with dark/light theme toggle, Hero pipeline card, Services, Filterable Work showcase with case study modal, Pricing, FAQ accordion, and Contact inquiry form.
   - **Acceptance Criteria:** `npm run build` succeeds with 0 errors and produces clean `dist/` bundle ready for Vercel.
 
-- [ ] **Task 2: Add SEO Metadata, OpenGraph Tags & Static Sitemap**
+- [x] **Task 2: Add SEO Metadata, OpenGraph Tags & Static Sitemap**
   - **Type:** SEO & Discoverability
   - **Description:** Add `public/robots.txt`, `public/sitemap.xml`, and enhanced OpenGraph/Twitter meta tags in `index.html` for better search indexing and link previews.
   - **Acceptance Criteria:** `npm run build` passes cleanly and `dist/robots.txt` + `dist/sitemap.xml` are present.

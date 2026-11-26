@@ -172,7 +172,7 @@ Provide JSON response with format:
             "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}
         }
 
-        models_to_try = [self.model, "gemini-3.1-flash-lite", "gemini-3.8-flash", "gemini-flash-latest"]
+        models_to_try = list(dict.fromkeys([self.model, "gemini-3.1-flash-lite", "gemini-3.8-flash", "gemini-flash-latest"]))
         last_error = ""
 
         for m in models_to_try:
@@ -203,6 +203,8 @@ Provide JSON response with format:
             except Exception as e:
                 last_error = str(e)
                 print(f"[CoderAgent] Model {m} error: {e}. Trying fallback...")
+                if "429" in str(e):
+                    time.sleep(10)
                 continue
 
         return False, f"LLM execution error across all models: {last_error}"
