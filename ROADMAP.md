@@ -20,7 +20,7 @@ Completed tasks are marked `[x]`. Pending `[ ]` tasks are automatically picked u
   - **Description:** Create a clean `src/components/Testimonials.jsx` section displaying verified client feedback and integrate it smoothly into `src/App.jsx` matching the existing theme variables.
   - **Acceptance Criteria:** `npm run build` passes cleanly with zero console or syntax errors.
 
-- [ ] **Task 4: Add Interactive Project Quote Estimator Widget**
+- [x] **Task 4: Add Interactive Project Quote Estimator Widget**
   - **Type:** Interactive Feature
   - **Description:** Create `src/components/QuoteEstimator.jsx` allowing visitors to select project type, pages count, and timeline to preview an instant estimated budget before submitting the contact form.
   - **Acceptance Criteria:** `npm run build` passes cleanly with zero errors.
