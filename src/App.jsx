@@ -19,6 +19,7 @@ import {
   X,
 } from 'lucide-react';
 import { FAQS, PLANS, PROJECTS, SERVICES } from './data/siteData';
+import Testimonials from './components/Testimonials';
 
 const SERVICE_ICONS = {
   web: Globe,
@@ -78,6 +79,7 @@ export default function App() {
           <nav className={`nav-links ${menuOpen ? 'open' : ''}`} aria-label="Primary">
             <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
             <a href="#work" onClick={() => setMenuOpen(false)}>Work</a>
+            <a href="#testimonials" onClick={() => setMenuOpen(false)}>Reviews</a>
             <a href="#pricing" onClick={() => setMenuOpen(false)}>Pricing</a>
             <a href="#faq" onClick={() => setMenuOpen(false)}>FAQ</a>
             <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
@@ -300,6 +302,9 @@ export default function App() {
             </div>
           </div>
         </section>
+
+        {/* Client Testimonials & Live Stats */}
+        <Testimonials />
 
         {/* Pricing */}
         <section id="pricing" className="section">

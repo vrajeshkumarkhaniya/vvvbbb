@@ -17,7 +17,7 @@
     "author_email": "agent@antigravity.cloud"
   },
   "notifications": {
-    "enabled": true,
+    "enabled": false,
     "provider": "telegram",
     "telegram_bot_token": "",
     "telegram_chat_id": "",

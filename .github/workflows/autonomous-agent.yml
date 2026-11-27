@@ -8,9 +8,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: autonomous-agent-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   autonomous-worker:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

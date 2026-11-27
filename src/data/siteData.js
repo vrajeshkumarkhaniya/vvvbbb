@@ -134,3 +134,40 @@ export const FAQS = [
     a: 'Everything is cleanly structured in modular React components and CSS variables so branding, copy, and pages can be updated in minutes.',
   },
 ];
+
+export const LIVE_STATS = [
+  { value: '99.9%', label: 'Uptime & Cloud SLA', description: 'Zero-downtime CI/CD on Vercel' },
+  { value: '4x', label: 'Faster Shipping', description: 'From idea to live production URL' },
+  { value: '15+', label: 'Products Delivered', description: 'Web, cross-platform & AI apps' },
+  { value: '24/7', label: 'Autonomous Monitoring', description: 'Real-time Telegram bot alerts' },
+];
+
+export const TESTIMONIALS = [
+  {
+    id: 1,
+    quote:
+      'The speed of execution was astonishing. Our full mobile khata and delivery platform was live with automated billing in just one sprint.',
+    author: 'Rajesh Patel',
+    role: 'Founder & Managing Director',
+    company: 'Amrit Milk Dairy',
+    rating: 5,
+  },
+  {
+    id: 2,
+    quote:
+      'Having a 24/7 autonomous bot pushing verified code commits while we slept felt like having a senior engineer in another timezone.',
+    author: 'Elena Rostova',
+    role: 'Head of Product',
+    company: 'Pulse Commerce',
+    rating: 5,
+  },
+  {
+    id: 3,
+    quote:
+      'Flawless responsive design with 99 Lighthouse performance. Our conversion rate increased immediately after the Vercel launch.',
+    author: 'Vikram Mehta',
+    role: 'Co-Founder',
+    company: 'AudiView Studio',
+    rating: 5,
+  },
+];
