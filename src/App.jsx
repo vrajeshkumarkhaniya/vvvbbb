@@ -13,10 +13,10 @@ export default function App() {
     <>
       <div className="ambient-bg" aria-hidden="true" />
       <header className="navbar">
-        <div className="container navbar-inner">
-          <a href="#top" className="brand" aria-label="98.5 Studio Home">
+        <nav className="container navbar-inner">
+          <a href="#top" className="brand" aria-label="Vrajesh Studio Home">
             <span className="brand-mark"><Sparkles size={18} /></span>
-            <span>98.5 Studio</span>
+            <span>Vrajesh Studio</span>
           </a>
           <div className="nav-actions">
             <button 
@@ -28,7 +28,7 @@ export default function App() {
               {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
             </button>
           </div>
-        </div>
+        </nav>
       </header>
       <main className="container">
         <section className="hero" aria-labelledby="hero-title">

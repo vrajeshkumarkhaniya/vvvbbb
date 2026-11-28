@@ -12,3 +12,8 @@
   - **Type:** Quality & Maintenance
   - **Description:** Audit React components and Vite bundle size, improve accessibility attributes, and verify production build.
   - **Acceptance Criteria:** npm run build passes with 0 errors and clean dist output.
+
+- [x] **Frontend Performance & SEO Polish (Nov 28)**
+  - **Type:** Quality & Maintenance
+  - **Description:** Audit React components and Vite bundle size, improve accessibility attributes, and verify production build.
+  - **Acceptance Criteria:** npm run build passes with 0 errors and clean dist output.
