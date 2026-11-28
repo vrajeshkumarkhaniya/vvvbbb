@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { ArrowRight, Bot, Code2, Menu, Moon, Rocket, Sparkles, Sun, X } from 'lucide-react';
-import { PROJECTS } from './data/siteData';
+import { Sparkles, Moon, Sun, ArrowRight, Zap } from 'lucide-react';
 import QuoteEstimator from './components/QuoteEstimator';
 
 export default function App() {
   const [theme, setTheme] = useState('dark');
-  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -29,8 +27,18 @@ export default function App() {
       </header>
       <main className="container">
         <section className="hero">
-          <h1>Build faster. Ship smarter.</h1>
-          <QuoteEstimator />
+          <div className="hero-content">
+            <div className="pill">
+              <Zap size={14} />
+              <span>Available for new projects</span>
+            </div>
+            <h1>Build faster. <br /><span className="gradient-text">Ship smarter.</span></h1>
+            <p className="hero-sub">
+              High-performance web, mobile, and AI products delivered with autonomous CI/CD pipelines. 
+              Get an instant project estimate below.
+            </p>
+            <QuoteEstimator />
+          </div>
         </section>
       </main>
     </>
