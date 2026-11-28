@@ -8,3 +8,7 @@
   - **Type:** User Request (via Telegram)
   - **Description:** Refined hero section layout, typography, and theme-aware styling for a cleaner, modern aesthetic.
   - **Acceptance Criteria:** Tested and build passes.
+- [x] **Frontend Performance & SEO Polish (Nov 28)**
+  - **Type:** Quality & Maintenance
+  - **Description:** Audit React components and Vite bundle size, improve accessibility attributes, and verify production build.
+  - **Acceptance Criteria:** npm run build passes with 0 errors and clean dist output.
